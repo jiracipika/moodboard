@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Moodboard",
+    "slug": "moodboard",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moodboard.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.moodboard.app"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
