@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import AppTransitionShell from '@/components/app-transition-shell';
 
 export const metadata: Metadata = {
   title: 'Moodboard — Visual Inspiration Collector',
@@ -11,7 +12,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <div style={{ minHeight: '100vh', background: 'var(--ios-bg)', color: 'var(--ios-label)', transition: 'background 0.3s, color 0.3s' }}>
-          {children}
+          <AppTransitionShell>{children}</AppTransitionShell>
         </div>
       </body>
     </html>
